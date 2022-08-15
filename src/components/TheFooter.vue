@@ -15,7 +15,7 @@
             class="h-10 border-spacing-3 rounded-sm"
           />
         </a>
-        <a href="https://www.github.com/PurtucRobert">
+        <a href="https://www.linkedin.com/in/purtuc-robert/">
           <font-awesome-icon
             icon="fab fa-linkedin-in"
             class="h-10 border-spacing-3 rounded-sm"
