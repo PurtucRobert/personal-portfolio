@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-48 flex flex-col items-center">
+  <div class="m-10 mt-48 flex flex-col items-center">
     <h1
       class="text-shadow-lg text-5xl font-semibold underline decoration-indigo-600"
       data-aos="zoom-in"
