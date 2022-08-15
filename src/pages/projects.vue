@@ -65,6 +65,7 @@ export default {
         },
         blog: {
           title: "Blog",
+          github: "https://github.com/PurtucRobert/basic-django-blog",
           description:
             "Blog is a 'Medium' contender written from scratch using Django and Bootstrap. Whilist being minimalistic, it's packing features like: subscription, category based posting, newsletter, secure authentication and registration as well as rich text editing",
           technologies: ["Bootstrap", "Django"],

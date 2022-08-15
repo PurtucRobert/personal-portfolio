@@ -2,7 +2,7 @@
   <div class="flex max-w-sm flex-row">
     <div class="indicator max-w-xs">
       <span class="indicator-item indicator-bottom">
-        <a href="https://www.github.com/PurtucRobert">
+        <a :href="github">
           <font-awesome-icon icon="fab fa-github" class="h-10" /> </a
       ></span>
       <div
