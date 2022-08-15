@@ -1,10 +1,10 @@
 <template>
-  <div class="pl-18 flex flex-row flex-wrap items-center justify-around">
+  <div class="pl-18 mr-5 flex flex-row flex-wrap items-center justify-around">
     <div
-      class="flex min-h-screen items-center justify-center px-16"
+      class="blobs flex min-h-screen flex-wrap items-center justify-center px-16"
       data-aos="zoom-out-right"
     >
-      <div class="relative w-full max-w-lg">
+      <div class="flex min-h-screen flex-row">
         <div
           class="absolute top-0 left-96 h-72 w-72 animate-blob rounded-full bg-purple-300 opacity-70 mix-blend-multiply blur-xl filter"
         ></div>
@@ -78,6 +78,12 @@
     .text-shadow-lg {
       text-shadow: 3px 3px 6px rgb(0 0 0 / 26%), 0 0 5px rgb(15 3 86 / 22%);
     }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  div.blobs {
+    display: none;
   }
 }
 </style>

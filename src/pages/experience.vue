@@ -8,7 +8,7 @@
         Experi</span
       >ence
     </h1>
-    <div class="mt-10 flex flex-row gap-36">
+    <div class="mt-10 mr-10 ml-10 flex flex-row flex-wrap gap-36">
       <div class="flex flex-col justify-around">
         <experience-button
           text="3PillarGlobal"

@@ -1,5 +1,8 @@
 <template>
-  <footer class="place-content center card footer footer-center pb-10">
+  <footer
+    class="place-content center card footer footer-center pb-10"
+    data-aos="fade-up"
+  >
     <div class="card card-bordered mt-10 w-8/12 bg-base-100 shadow-xl">
       <div class="mt-10 grid grid-flow-col gap-4">
         <a class="link link-hover">About</a>

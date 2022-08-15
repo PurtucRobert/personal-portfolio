@@ -1,7 +1,9 @@
 <template>
-  <ul class="steps steps-vertical pb-10">
+  <ul
+    class="steps steps-vertical mr-10 mt-10 flex flex-col flex-wrap gap-5 pb-10"
+  >
     <li class="step step-neutral">
-      <div class="card w-96 bg-base-100 shadow-xl">
+      <div class="card w-72 bg-base-100 shadow-xl">
         <div class="card-body">
           <h2 class="card-title">
             Politehnica University Of Timisoara - Computer Science
@@ -11,7 +13,7 @@
       </div>
     </li>
     <li class="step step-neutral">
-      <div class="card w-96 bg-base-100 shadow-xl">
+      <div class="card w-72 bg-base-100 shadow-xl">
         <div class="card-body">
           <h2 class="card-title">
             Politehnica University Of Timisoara - Masters of Cloud Computing and

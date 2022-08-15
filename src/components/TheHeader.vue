@@ -1,7 +1,7 @@
 <template>
   <div id="scroll-progress"></div>
-  <nav class="flex items-center justify-end py-8">
-    <ul class="flex items-center justify-around gap-16 pr-20">
+  <nav class="navbar flex items-center justify-end py-8">
+    <ul class="flex flex-wrap items-center justify-around gap-16 pr-20">
       <li data-aos="fade-down">
         <a
           class="font-bold text-purple-800 hover:text-purple-500"
@@ -64,7 +64,6 @@ export default {
 /* body {
   min-height: 200vh;
 } */
-
 #scroll-progress {
   position: fixed;
   top: 0;

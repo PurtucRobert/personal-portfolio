@@ -1,6 +1,6 @@
 <template>
   <div class="flex max-h-screen flex-col flex-wrap">
-    <div class="flex flex-row">
+    <div class="flex flex-row flex-wrap">
       <p
         class="text-xl font-semibold"
         data-aos="fade-left"
@@ -16,17 +16,19 @@
     >
       <span class="decoration-indigo-600 decoration-solid"> {{ title }}</span>
     </h1>
-    <div
-      v-for="description in descriptions"
-      :key="description"
-      class="mt-3 flex flex-row flex-wrap items-center"
-      data-aos="fade-right"
-      :data-aos-duration="this.duration"
-    >
-      <img src="../assets/bullet-point.svg" class="max-h-5" />
-      <p class="max-w-lg text-lg font-semibold text-slate-400">
-        {{ description }}
-      </p>
+    <div class="mt-10 flex max-w-lg flex-col">
+      <div
+        v-for="description in descriptions"
+        :key="description"
+        class="mt-3 flex flex-row items-center"
+        data-aos="fade-right"
+        :data-aos-duration="this.duration"
+      >
+        <img src="../assets/bullet-point.svg" class="max-h-5" />
+        <p class="max-w-lg text-lg font-semibold text-slate-400">
+          {{ description }}
+        </p>
+      </div>
     </div>
   </div>
 </template>
