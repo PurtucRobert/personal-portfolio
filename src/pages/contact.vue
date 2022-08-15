@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="ml-16 mr-10 mt-24 flex flex-row flex-wrap items-center justify-center"
-  >
+  <div class="mr-10 mt-24 flex flex-row flex-wrap items-center justify-center">
     <div class="flex flex-col flex-wrap items-center gap-5">
       <h1
         class="text-shadow-lg text-center text-6xl font-semibold"

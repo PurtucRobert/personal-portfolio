@@ -1,12 +1,15 @@
 <template>
-  <div>
-    <div class="mr-40 mt-16 flex flex-row flex-wrap justify-around">
+  <div
+    style="background-image: url(/src/assets/layered-waves-haikei.svg)"
+    class="h-full w-full overflow-auto bg-cover bg-right-bottom bg-no-repeat"
+  >
+    <div class="mt-16 mr-16 ml-10 flex flex-row flex-wrap justify-around">
       <img
-        class="card mt-20 ml-12 max-h-48 rounded-full border shadow-md drop-shadow-md"
+        class="card mt-20 max-h-48 rounded-full border shadow-md drop-shadow-md"
         src="../assets/profile_picture.png"
         data-aos="fade-right"
       />
-      <div class="ml-52 flex flex-col" data-aos="fade-left">
+      <div class="flex flex-col" data-aos="fade-left">
         <h1 class="text-shadow-lg text-5xl font-semibold">
           <span class="underline decoration-indigo-600 decoration-solid">
             About</span

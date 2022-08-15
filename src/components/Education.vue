@@ -1,6 +1,6 @@
 <template>
   <ul
-    class="steps steps-vertical mr-10 mt-10 flex flex-col flex-wrap gap-5 pb-10"
+    class="steps steps-vertical mt-10 flex max-w-sm flex-col flex-wrap gap-5 pb-6"
   >
     <li class="step step-neutral">
       <div class="card w-72 bg-base-100 shadow-xl">

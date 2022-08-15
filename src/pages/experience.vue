@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-16 flex flex-col items-center justify-center">
+  <div class="mt-48 flex flex-col items-center justify-center">
     <h1 class="text-shadow-lg text-5xl font-semibold" data-aos="fade-left">
       <span
         class="underline decoration-indigo-600 decoration-solid"

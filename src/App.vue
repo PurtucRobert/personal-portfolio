@@ -20,12 +20,8 @@ AOS.init({
     <the-header></the-header>
     <main>
       <hello-page id="hello-page"></hello-page>
-      <about
-        id="about-page"
-        style="background-image: url('/assets/layered-waves-haikei.svg')"
-        class="h-full w-full bg-cover bg-right-bottom bg-no-repeat"
-      ></about>
-      <!-- <projects id="projects-page"></projects> -->
+      <about id="about-page"></about>
+      <projects id="projects-page"></projects>
       <experience id="experience-page"></experience>
       <contact id="contact-page"></contact>
     </main>
