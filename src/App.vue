@@ -22,7 +22,7 @@ AOS.init({
       <hello-page id="hello-page"></hello-page>
       <about
         id="about-page"
-        style="background-image: url('/src/assets/layered-waves-haikei.svg')"
+        style="background-image: url('/assets/layered-waves-haikei.svg')"
         class="h-full w-full bg-cover bg-right-bottom bg-no-repeat"
       ></about>
       <!-- <projects id="projects-page"></projects> -->

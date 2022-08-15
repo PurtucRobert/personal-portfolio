@@ -1,5 +1,5 @@
 <template>
-  <div class="gap- mt-16 ml-20 flex flex-col items-start">
+  <div class="mt-16 ml-20 flex flex-col items-center">
     <h1 class="text-shadow-lg text-5xl font-semibold" data-aos="zoom-in">
       <span
         class="underline decoration-indigo-600 decoration-solid"

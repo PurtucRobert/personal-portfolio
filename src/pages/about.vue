@@ -1,5 +1,4 @@
 <template>
-  <!-- <img src="../assets/Wave-10s-1536px.svg" /> -->
   <div>
     <div class="mr-40 mt-16 flex flex-row flex-wrap justify-around">
       <img
